@@ -49,7 +49,7 @@
 --              the current Arts.
 --                                          Light Arts                    Dark Arts
 --                                          ----------                  ---------
---                gs c scholar light          Light Arts/Addendum
+--              gs c scholar light          Light Arts/Addendum
 --              gs c scholar dark                                       Dark Arts/Addendum
 --              gs c scholar cost           Penury                      Parsimony
 --              gs c scholar speed          Celerity                    Alacrity
@@ -285,11 +285,11 @@ function init_gear_sets()
         main="Grioavolr", --10
         sub="Clerisy strap", --2
         ammo="Incantor stone", --2
-		head="Vanya hood", --10
+	head="Vanya hood", --10
         body="Inyanga Jubbah +2", --14
         hands="Gende. Gages +1", --7
         legs="Aya. Cosciales +2", --6
-		feet="Chelona Boots",
+	feet="Chelona Boots",
         --feet="Regal pumps +1", --6
         neck="Orison locket", --5
         ear1="Loquacious Earring", --2
@@ -392,18 +392,18 @@ function init_gear_sets()
         }
 
     sets.midcast.Cursna = set_combine(sets.midcast.StatusRemoval, {
-		main={ name="Queller Rod", augments={'Healing magic skill +15','"Cure" potency +10%','"Cure" spellcasting time -7%',}},
-		head={ name="Vanya Hood", augments={'Healing magic skill +20','"Cure" spellcasting time -7%','Magic dmg. taken -3',}},
-		body="Ebers Bliaud +1",
-		hands="Fanatic gloves",
-		legs={ name="Vanya Slops", augments={'Healing magic skill +20','"Cure" spellcasting time -7%','Magic dmg. taken -3',}},
-		feet={ name="Vanya Clogs", augments={'"Cure" potency +5%','"Cure" spellcasting time -15%','"Conserve MP"+6',}},
-		neck="Malison Medallion",
-		waist="Bishop's Sash",
-		left_ear="Healing Earring",
-		ring1={name="Ephedra Ring", bag="Wardrobe", priority=1},
-		ring2={name="Ephedra Ring", bag="Wardrobe2", priority=2},
-		back={ name="Alaunus's Cape", augments={'MND+20','"Cure" potency +10%',}},
+	main={ name="Queller Rod", augments={'Healing magic skill +15','"Cure" potency +10%','"Cure" spellcasting time -7%',}},
+	head={ name="Vanya Hood", augments={'Healing magic skill +20','"Cure" spellcasting time -7%','Magic dmg. taken -3',}},
+	body="Ebers Bliaud +1",
+	hands="Fanatic gloves",
+	legs={ name="Vanya Slops", augments={'Healing magic skill +20','"Cure" spellcasting time -7%','Magic dmg. taken -3',}},
+	feet={ name="Vanya Clogs", augments={'"Cure" potency +5%','"Cure" spellcasting time -15%','"Conserve MP"+6',}},
+	neck="Malison Medallion",
+	waist="Bishop's Sash",
+	left_ear="Healing Earring",
+	ring1={name="Ephedra Ring", bag="Wardrobe", priority=1},
+	ring2={name="Ephedra Ring", bag="Wardrobe2", priority=2},
+	back={ name="Alaunus's Cape", augments={'MND+20','"Cure" potency +10%',}},
         })
 
     sets.midcast.Erase = set_combine(sets.midcast.StatusRemoval, {neck="Cleric's Torque"})
